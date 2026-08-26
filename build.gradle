@@ -1,3 +1,5 @@
-plugins {
-    id 'com.android.application' version '8.2.2' apply false
+plugins { id 'com.android.application' }
+
+android { namespace 'com.orbitshell'; compileSdk 34
+    defaultConfig { applicationId 'com.orbitshell'; minSdk 26; targetSdk 34; versionCode 100; versionName '1.0.0' }
 }
